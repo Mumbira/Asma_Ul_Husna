@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_names">
+
+    <fragment
+        android:id="@+id/nav_names"
+        android:name="de.aytekin.asmaulhusna.HomeFragment"
+        android:label="99 Names"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_quiz"
+        android:name="de.aytekin.asmaulhusna.QuizFragment"
+        android:label="Quiz"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_stats"
+        android:name="de.aytekin.asmaulhusna.StatsFragment"
+        android:label="Learning Statistics"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="de.aytekin.asmaulhusna.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/settings_fragment" />
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="de.aytekin.asmaulhusna.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+</navigation>
